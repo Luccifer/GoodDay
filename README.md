@@ -1,6 +1,7 @@
 ##### BIM/IFC model visual viewer (analyser)
 
-# Requirements: 
+# Manual installation and deploy
+## Requirements: 
 
 - **[Python](https://www.python.org/downloads/)**  3.5 (or 2.7), but exactly 3.5.* or 2.7.* versions only.
 
@@ -18,7 +19,24 @@
 
 - **[SWIG](http://www.swig.org/download.html)** (For building the IfcOpenShell Python interface and the Blender add-on)
 
+## Installation guide:
 
-# Optional: 
+# Fast installation and deploy
+
+## Requirements:
 - **[Anaconda](https://www.anaconda.com/download/)** (Package manager with preinstalled python and virtual environment management)
+- **[Precompilled ifcOpenShell python lib](https://github.com/Luccifer/GoodDay/blob/master/src/ifcopenshell.zip)**
 
+## Installation guide:
+- Download and install **Anaconda**, no checkboxes should be selected during the installation
+- Open conda promt command line and type |
+```bash
+conda install -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core==0.18 python=3
+```
+This will install half of libraries by one query promt
+- Download precompilled archive with python lib of ifcOpenShell, unzip it and put the ifcOpenShell folder into .../User/Anaconda3/Lib/site-packages
+- Type into the conda command line following:
+```bash
+jupyter notebook
+```
+- Create the new working notebook and you are primed to work with ifc bim models
