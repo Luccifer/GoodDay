@@ -21,7 +21,7 @@
 
 ## Installation guide:
 
-# Fast installation and deploy
+# Fast installation and deploy (Win/Unix/Mac)
 
 ## Requirements:
 - **[Anaconda](https://www.anaconda.com/download/)** (Package manager with preinstalled python and virtual environment management)
@@ -29,7 +29,7 @@
 
 ## Installation guide:
 - Download and install **Anaconda**, no checkboxes should be selected during the installation
-- Open conda promt command line and type |
+- Open conda promt command line and type 
 ```bash
 conda install -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core==0.18 python=3
 ```
