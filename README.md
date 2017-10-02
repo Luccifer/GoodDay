@@ -39,4 +39,4 @@ This will install half of libraries by one query promt
 ```bash
 jupyter notebook
 ```
-- Create the new working notebook and you are primed to work with ifc bim models
+- Create the new working notebook and you are primed to work with ifc bim models. Such little example of working with screenshots can be found [here](https://github.com/Luccifer/GoodDay/blob/master/House.ipynb)
