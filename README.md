@@ -40,3 +40,16 @@ This will install half of libraries by one query promt
 jupyter notebook
 ```
 - Create the new working notebook and you are primed to work with ifc bim models. Such little example of working python notebook with screenshots can be found [here](https://github.com/Luccifer/GoodDay/blob/master/House.ipynb)
+
+
+// Long install ifcOpenShell
+ 1. Install PowerShell (preinstalled in Windows >= 7) and make sure 'powershell' is accessible from PATH.
+  - https://support.microsoft.com/en-us/kb/968929
+ 2. Install Git and make sure 'git' is accessible from PATH.
+  - https://git-for-windows.github.io/
+ 3. Install CMake and make sure 'cmake' is accessible from PATH.
+  - http://www.cmake.org/
+ 4. Visual Studio 2008 or newer (2013 or newer recommended) with C++ toolset.
+  - https://www.visualstudio.com/
+ 5. Run this batch script with Visual Studio environment variables set.
+  - https://msdn.microsoft.com/en-us/library/ms229859(v=vs.110).aspx
